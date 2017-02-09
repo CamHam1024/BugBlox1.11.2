@@ -22,7 +22,7 @@ public class ModBlocks
 	public static void register()
 	{
 		//Register Block
-		GameRegistry.register(solidblox);
+		registerBlock(solidblox);
 	}
 	
 	private static void registerBlock(Block block)
