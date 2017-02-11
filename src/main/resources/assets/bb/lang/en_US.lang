@@ -1,1 +1,6 @@
 item.bugtablet.name=Bug Tablet
+
+tile.solidblox.name=Solid Blox
+tile.normalblox.name=Normal Blox
+tile.ghostblox.name=Ghost Blox
+tile.blastblox.name=Blast Blox

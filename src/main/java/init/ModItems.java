@@ -24,6 +24,7 @@ public class ModItems
 	{
 		//Register Items
 		GameRegistry.register(bugtablet);
+		bugtablet.setContainerItem(bugtablet);
 	}
 	
 	public static void registerRenders()

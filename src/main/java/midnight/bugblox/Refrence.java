@@ -42,7 +42,10 @@ public class Refrence
 		public static enum BugBloxBlocks
 		{
 			//Block references
-			SOLIDBLOX("solidblox","SolidBlox");
+			SOLIDBLOX("solidblox","SolidBlox"),
+			NORMALBLOX("normalblox","NormalBlox"),
+			GHOSTBLOX("ghostblox","GhostBlox"),
+			BLASTBLOX("blastblox","BlastBlox");
 			
 			//Unlocalised names
 			private String unlocalizedName;

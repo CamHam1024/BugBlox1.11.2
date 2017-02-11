@@ -13,5 +13,15 @@ public class SolidBlox extends Block
 		super(Material.ROCK);
 		setUnlocalizedName(Refrence.BugBloxBlocks.SOLIDBLOX.getUnlocalizedName());
 		setRegistryName(Refrence.BugBloxBlocks.SOLIDBLOX.getRegistryName());
+		
+		//Block Properties
+		setHardness(-1.0F);
+		setResistance(15.0F);
+		setLightLevel(0.5F);
+		
+		//Name Text Formatting
+		
 	}
+	
+	
 }

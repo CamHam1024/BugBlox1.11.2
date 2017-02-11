@@ -1,6 +1,7 @@
 package midnight.bugblox;
 
 import init.ModBlocks;
+import init.ModCrafting;
 import init.ModItems;
 import midnight.bugblox.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -38,6 +39,8 @@ public class BugBlox
 	{
 		//Proxy Init
 		proxy.init();
+		
+		ModCrafting.register();
 	}
 	
 	@EventHandler

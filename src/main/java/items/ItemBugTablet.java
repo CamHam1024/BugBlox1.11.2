@@ -19,7 +19,6 @@ public class ItemBugTablet extends Item
 	public String getItemStackDisplayName(ItemStack stack) 
 	{
 	    return TextFormatting.DARK_RED+""+TextFormatting.BOLD + super.getItemStackDisplayName(stack);
-	    
 	}
 }
 
